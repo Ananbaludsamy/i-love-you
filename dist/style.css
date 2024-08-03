@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+
+body{
+  background-color: black;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    width: 110px;
+    height: 110px;
+  }
+}
+img {
+  animation: pulse 1.5s infinite;
+}
+
+.love {
+  font-family: "Libre Baskerville", serif;
+  font-size: 80px;
+  vertical-align: top;
+  margin: 100% auto;
+  text-align: center;
+  color: white;
+}
